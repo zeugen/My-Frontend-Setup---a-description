@@ -1,0 +1,12 @@
+1- this folder has all the original code you write - code you send to github repo, can be run on any task runner to build the project
+2- has scripts and styles folders - 
+3- scripts will have a vendor folder, and the main script file - 
+styles architecture for css - ->:
+    these folders will be found inside the styles,
+
+        -plugins-:-> e.g bourbon, any plugin that aids in dev or vendor css
+        -helpers: ->functions, mixins, variables - * none of them need to come after a reset.come before them
+        -base:-> global styles, html, global containers, reset, typography
+        -layout: footer, navigation, siteheader, siteMainContent
+        -modules:-> anything that isnt global feature - anything that can be interchangeable in dif pages, you can use it any page or layout
+        -templates:-> these come in after the rules of specificity, page specific styles that alter the set original code

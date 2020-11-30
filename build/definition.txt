@@ -1,0 +1,2 @@
+1- contains your final project files, minimized and optimized for upload
+2- will have a sass, image, pages files, fonts, scripts,e.t.c
